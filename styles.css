@@ -3,10 +3,10 @@ div {
     font-size: 40px;
     padding: 20px;
     text-align: center;
-    
+    font-weight: bold
   }
   
-  h1{
+  h1{ 
     font-size: 50px;
   }
   
@@ -35,5 +35,11 @@ div {
   
   .red{
     background-color: red;
+
+  }
+
+  
+  .green{
+    background-color: green;
 
   }

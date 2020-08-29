@@ -5,7 +5,8 @@
 
     LunchCheckController.$inject = ['$scope'];
     function LunchCheckController($scope) {
-        $scope.output = '';
+        $scope.output1 = '';
+        $scope.output2 ='';
         $scope.dish = '';
         
     $scope.checkLunch = function() {
@@ -20,9 +21,9 @@
                 });
 
                 if (inputconfirm.length <= 3) {
-                    $scope.output = 'Enjoy!';}
+                    $scope.output1 = 'Enjoy!';}
                  else {
-                    $scope.output = 'Too much!';}
+                    $scope.output2 = 'Too much!';}
             }
          };
     }

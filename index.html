@@ -19,8 +19,9 @@
            
           <button  ng-click="checkLunch()">Check If Too Much</button>
         </div>
-        <div ng-show="!empty && checked"  ><b >{{output}}</b></div>
-        <div ng-show="empty"  ><b class="red"> <b>Please enter data first </b></div>
+        <p ng-show="!empty && checked" ng-bind="output1" class="green"><b class="red"> </p>
+        <p ng-show="!empty && checked" ng-bind="output2" class="red"></p>
+        <p ng-show="empty" class="red">Please enter data first </p>
     </div>
     
 </body>
