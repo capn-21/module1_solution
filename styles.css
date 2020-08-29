@@ -42,6 +42,6 @@ div {
 
   
   .green{
-    background-color: green;
-
+    
+    border: 1px solid #ccc;
   }

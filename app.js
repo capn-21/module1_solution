@@ -23,7 +23,7 @@
                 if (inputconfirm.length <= 3) {
                     $scope.output1 = 'Enjoy!';}
                  else {
-                    $scope.output2 = 'Too much!';}
+                    $scope.output1 = 'Too much!';}
             }
          };
     }
